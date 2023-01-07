@@ -1,0 +1,60 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: darksalmon;
+}
+nav {
+    background-color: linen;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+    border-right: 1px solid salmon;
+}
+nav ul li:last-child{
+    border-right: none;
+}
+nav ul li a{
+    display: block;
+    padding: 1em 2em;
+}
+main article section table td{
+    padding: 0 2em;
+}
+aside {
+    position: fixed;
+    top: 80%;
+    right: .5em;
+    background-color: linen;
+    z-index: 2;
+}
+aside a {
+    display: block;
+    padding: .5em .5em;
+}
+main {
+    margin-bottom: 5em;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: linen;
+    text-align: center;
+    background-color: lightsalmon;
+    z-index: 1;
+}
+@media screen and (max-width:800px) {
+    nav ul li {
+        float: none;
+        border-right: none;
+        border-bottom: 1px solid salmon;
+    }
+}
