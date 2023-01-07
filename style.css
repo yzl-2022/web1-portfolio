@@ -24,6 +24,9 @@ nav ul li a{
     display: block;
     padding: 1em 2em;
 }
+main article section h3 {
+    text-shadow: 4px 4px 6px lightsalmon;
+}
 main article section table td{
     padding: 0 2em;
 }
@@ -36,16 +39,17 @@ aside {
 }
 aside a {
     display: block;
-    padding: .5em .5em;
+    padding: .5em;
 }
 main {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    padding: .5em;
     color: linen;
     text-align: center;
     background-color: lightsalmon;
