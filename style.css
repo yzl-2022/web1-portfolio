@@ -27,9 +27,6 @@ nav ul li a{
 main article section h3 {
     text-shadow: 4px 4px 6px lightsalmon;
 }
-main article section table td{
-    padding: 0 2em;
-}
 aside {
     position: fixed;
     top: 80%;
@@ -43,6 +40,17 @@ aside a {
 }
 main {
     margin-bottom: 3em;
+}
+h4 {
+    padding: 2em 0;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+th, td {
+    padding: 1em;
+}
+code {
+    font-size: larger;
 }
 footer {
     position: fixed;
