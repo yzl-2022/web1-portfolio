@@ -59,22 +59,116 @@
             <section>
                 <h3 id="skill">Compétences</h3>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>connaître la composition du matériel informatique, le fonctionnement des serveurs web et du protocole HTTP (client et serveur)</li>
+                    <li>établir un système d'exploitation Linux à l'aide d'une machine virtuelle</li>
+                    <li>installer et configurer l'environnement de développement web LAMP: Linux, Apache, MySQL, and PHP/Perl/Python </li>
                 </ul>
             </section>
             <section>
                 <h3 id="achievement">La description d'une réalisation</h3>
+                <h4>Composants du système informatique personnel</h4>
+                <table>
+                    <tr>
+                        <th>Le disque dur</th>
+                        <td>Contrairement à la mémoire vive, les données stockées sur cet élément sont permanentes et ne sont pas effacées à l'arrêt de votre ordinateur. C'est donc sur celui-ci que votre système d'exploitation (Linux, MacOs ou Windows), vos logiciels et vos documents sont conservés. C'est donc un espace de stockage permanent, où vous pouvez copier et supprimer des données à volonté.</td>
+                    </tr>
+                    <tr>
+                        <th>L'alimentation</th>
+                        <td>Cet élément a le rôle d'assurer la fourniture en électricité à tous les composant de votre ordinateur.</td>
+                    </tr>
+                    <tr>
+                        <th>Le lecteur & graveur cd/dvd</th>
+                        <td>Cet élément vous permet de lire les données qui se trouvent sur les CD et DVD (jeux, logiciels, photos). Dans sa fonction graveur, en plus de lire les données, il permet de stocker des fichiers sur des CD et des DVD (musique, film, photos, sauvegardes), afin de libérer de l'espace sur votre disque dur.</td>
+                    </tr>
+                    <tr>
+                        <th>La carte son</th>
+                        <td>Permet de gérer les entrées et les sorties de votre ordinateur. Elle comporte un processeur chargé de tous les traitements numériques.</td>
+                    </tr>
+                    <tr>
+                        <th>La carte graphique</th>
+                        <td>Permet de traiter et d'afficher sur un écran les données provenant de votre ordinateur. Les cartes graphiques récentes disposent de processeurs spécialisés dans la manipulation de données en 3D. (Jeux vidéos)</td>
+                    </tr>
+                    <tr>
+                        <th>La carte mère</th>
+                        <td>C'est elle qui accueille l'ensemble des composants internes de votre ordinateur (processeur, mémoire,...) et gère les différentes interfaces avec vos périphériques: prise pour les éléments internes et ports USB pour les périphériques externes.</td>
+                    </tr>
+                    <tr>
+                        <th>RAM (mémoire vive)</th>
+                        <td>Partenaire de travail du processeur, stocke temporairement les données à traiter par le processeur. Ainsi, plus il y a de grade capacité, plus il est possible d'y conserver des données temporairement (ce qui évite d'accéder au disque dur qui est plus lent). Elle est vidée à chaque arrêt ou redémarrage de votre ordinateur.</td>
+                    </tr>
+                    <tr>
+                        <th>Le processeur</th>
+                        <td>Souvent qualifié de cerveau de l'ordinateur, il permet de manipuler et de traiter les données qui lui sont fournies. Sa puissance a une influence sur la vitesse d'exécution de vos logiciels et des opérations que vous effectuez.</td>
+                    </tr>
+                </table>
+                <h4>Le web</h4>
+                <table>
+                    <tr>
+                        <th>Web statique</th>
+                        <td>chaque visiteur ont toutes le droit à la même page</td>
+                        <td>web 1.0</td>
+                    </tr>
+                    <tr>
+                        <th>Web dynamique</th>
+                        <td>chaque visiteur voit une page différente en fonction des demandes effectuées</td>
+                        <td>web 2.0 et les successeurs</td>
+                    </tr>
+                </table>
+                <h4>La sécurité du web - malware</h4>
+                <table>
+                    <tr>
+                        <th>Modes de sécurité</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Vers</td>
+                        <td>Ce programme se reproduit dans le but de ralentir ou de perturber les opérations réseau.</td>
+                    </tr>
+                    <tr>
+                        <td>Logiciel publicitaire</td>
+                        <td>Il distrubue lors de téléchargement de logiciels en ligne et affiche de la publicité dans une fenêtre contextuelle.</td>
+                    </tr>
+                    <tr>
+                        <td>Logiciel espion</td>
+                        <td>Il collecte des informations sur l'utilisateur et les envoyer vers une autre entité, sans le consentement de l'utilisateur.</td>
+                    </tr>
+                    <tr>
+                        <td>Faux logiciels de pretection (ransomware)</td>
+                        <td>Il bloque l'accès au système infecté et exige le paiement d'une rançon pour que cette restriction soit levée.</td>
+                    </tr>
+                    <tr>
+                        <td>Rootkits</td>
+                        <td>Ce logiciel est souvent utilisé par les hackers pour obtenir un accès de niveau administrateur à l'ordinateur.</td>
+                    </tr>
+                </table>
                 <h4>Utiliser git pour gérer les dépôts locaux et distants</h4>
                 <p>La première étape: configurer votre identité</p>
                 <blockquote>
-                    <pre>$ git config --global user.name "votre_username" </pre>
-                    <pre>$ git config --global user.email votre_email@email.com</pre>
+                    <code>$ git config --global user.name "votre_username"</code><br>
+                    <code>$ git config --global user.email votre_email@email.com</code><br>
                 </blockquote>
                 <p>La deuxième étape: initialiser le dépôt local</p>
                 <blockquote>
-                    <pre>$ git init </pre>
+                    <code>$ git init</code><br>
+                </blockquote>
+                <p>La troisième étape: cloner le répertoire en local</p>
+                <blockquote>
+                    <code>$ git clone https://github.com/votre_lien.git </code><br>
+                </blockquote>
+                <p>La quatrième étape: créer une nouvelle branche</p>
+                <blockquote>
+                    <code>$ git checkout -b nouvelle_branche</code><br>
+                </blockquote>
+                <p>une fois les modifications apportées: commit les modifications</p>
+                <blockquote>
+                    <code>$ git add .</code><br>
+                    <code>$ git commit</code><br>
+                </blockquote>
+                <p>À la fin: fusionner avec la branche principale et pousser vers l'origine distante</p>
+                <blockquote>
+                    <code>$ git checkout main</code><br>
+                    <code>$ git merge nouvelle_branche</code><br>
+                    <code>$ git push origin main</code><br>
                 </blockquote>
             </section>
             <section>
